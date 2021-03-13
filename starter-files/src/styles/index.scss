@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+:root {
+    --main-dark: #272727;
+    --main-light: #ffffff;
+    --helper-grey: #efefef;
+    --helper-dark: #040301;
+}
+
+.general {
+    color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+    letter-spacing: -1px;
+    background-color: var(--helper-dark);
+}

@@ -1,0 +1,23 @@
+.info-table {
+    h1,
+    h5,
+    tbody {
+        font-weight: 900;
+    }
+
+    tr {
+        color: var(--main-light);
+
+        &:first-child {
+            border-top: hidden;
+        }
+    }
+
+    td {
+        border-bottom: 1px solid rgba(239, 239, 239, 0.5);
+
+        &:nth-child(even) {
+            text-align: end;
+        }
+    }
+}

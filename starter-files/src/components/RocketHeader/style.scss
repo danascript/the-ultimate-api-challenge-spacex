@@ -1,0 +1,23 @@
+.rocket__header {
+    &__container {
+        width: 100%;
+        bottom: 450px;
+    }
+
+    &__text {
+        font: 100px/85px D-DIN-Bold, Arial, Verdana, sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .rocket__header {
+        &__container {
+            bottom: 350px;
+        }
+        &__text {
+            font-size: 4rem;
+        }
+    }
+}

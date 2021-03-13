@@ -1,0 +1,27 @@
+.article {
+    position: relative;
+    color: var(--main-dark);
+
+    &__image {
+        width: 100%;
+    }
+
+    &__header {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        font-weight: 700;
+
+        h5 {
+            width: max-content;
+            color: var(--main-dark);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: var(--main-light);
+            background-color: rgba(33, 33, 33, 0.65);
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.nav__link {
+    margin: 10px;
+    font-weight: 700;
+
+    a,
+    a:hover {
+        color: var(--helper-grey);
+        text-decoration: none;
+    }
+
+    a::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 1px;
+        background: var(--helper-grey);
+        transition: width 0.3s ease-in-out;
+    }
+
+    a:hover::after {
+        width: 100%;
+    }
+}
