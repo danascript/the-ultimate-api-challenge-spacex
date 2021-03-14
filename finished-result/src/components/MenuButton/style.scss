@@ -1,0 +1,43 @@
+.nav__button {
+    background-color: transparent;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    &__icon {
+        width: 30px;
+        height: 2px;
+        border-radius: 5px;
+        background: var(--main-light);
+        transition: all 0.5s ease-in-out;
+        z-index: 2;
+    }
+    &__icon::before,
+    &__icon::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: var(--main-light);
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+    &__icon::before {
+        transform: translate(-15px, -10px);
+    }
+    &__icon::after {
+        transform: translate(-15px, 10px);
+    }
+    /* ANIMATION */
+    .open {
+        transform: translateX(-55px);
+    }
+    .open::before {
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+    .open::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+}

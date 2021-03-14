@@ -1,0 +1,15 @@
+.nav {
+    &__sidebar {
+        background-color: var(--main-dark);
+        height: 100vh;
+        left: -10px;
+        transition: all 0.5s ease-in-out;
+        font-weight: 700;
+        width: 300px;
+        z-index: 1;
+    }
+
+    &--animate {
+        transform: translateX(-320px);
+    }
+}
