@@ -2,7 +2,7 @@
 ---
 <div>
 <b>Quick menu:</b>
-<a href="https://theultimateapichallenge.com/spacex-api" target="_blank" rel="noopener"
+<a href="https://theultimateapichallenge.com/challenges/spacex-api" target="_blank" rel="noopener"
     style="padding:0.35rem 0.7rem;
     color: black;
     background: #BDFFF3;
